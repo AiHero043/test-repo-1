@@ -9,6 +9,7 @@ notifier = ToastNotifier()
 
 async def fetch_data(url):
     API_KEY = "apikey=0zN2ZgXItrVsy4GfQQlz6HEcgMY55t8U"
+    API_KEY_21 = "apikey=0zN2ZgXItrVha6GfQQlz6HEcgMY55t8U"
     headers = {"accept": "application/json"}
     async with aiohttp.ClientSession() as session:
         try:

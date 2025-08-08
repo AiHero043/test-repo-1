@@ -36,7 +36,7 @@ else:
         Rounds = Rounds - 1
         print(f"**** Number of Rounds Remaining : {Rounds} ****")
         print("----------------------------------------")
-        print("Try next time") if(Rounds == 0) else ""
+        print("Try next time!!! You failed Miserably. HEHEHEE") if(Rounds == 0) else ""
 
 
 
